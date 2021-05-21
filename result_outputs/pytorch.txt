@@ -1,0 +1,48 @@
+/usr/local/Caskroom/miniconda/base/envs/LVQ/bin/python /Users/christoph/PycharmProjects/LVQ/with_protoflow/generalized.py
+
+wine ((178, 13))  | 150 iterations
+pytorch_native_all_at_once     	 Accuracy: 1.00000 	 Duration: 0.50863 	 Iterations=   78 	 BF-Time=19.038158893585205
+pytorch_native_all_at_once     	 Accuracy: 1.00000 	 Duration: 0.44338 	 Iterations=   95 	 BF-Time=19.645791053771973
+pytorch_scipy_wrapper          	 Accuracy: 1.00000 	 Duration: 0.41907 	 Iterations=   59 	 BF-Time=18.34780788421631
+pytorch_scipy_wrapper          	 Accuracy: 1.00000 	 Duration: 0.26275 	 Iterations=   84 	 BF-Time=18.208110809326172
+NotThreeTimes                  	 Accuracy: 1.00000 	 Duration: 0.06512 	 Iterations=   28 	 BF-Time=12.45058012008667
+scipy gmlvq                    	 Accuracy: 1.00000 	 Duration: 0.25178 	 Iterations=   34 	 BF-Time=12.450162887573242
+scipy gmlvq                    	 Accuracy: 1.00000 	 Duration: 0.31159 	 Iterations=   47 	 BF-Time=12.828471899032593
+
+iris ((150, 4))  | 150 iterations
+pytorch_native_all_at_once     	 Accuracy: 0.98667 	 Duration: 0.08747 	 Iterations=   25 	 BF-Time=16.88974094390869
+pytorch_native_all_at_once     	 Accuracy: 0.98667 	 Duration: 0.07954 	 Iterations=   25 	 BF-Time=16.679102182388306
+pytorch_scipy_wrapper          	 Accuracy: 0.98667 	 Duration: 0.06421 	 Iterations=   24 	 BF-Time=16.55859613418579
+pytorch_scipy_wrapper          	 Accuracy: 0.98667 	 Duration: 0.06161 	 Iterations=   24 	 BF-Time=16.503232955932617
+NotThreeTimes                  	 Accuracy: 0.98667 	 Duration: 0.03564 	 Iterations=   31 	 BF-Time=10.058291912078857
+scipy gmlvq                    	 Accuracy: 0.98667 	 Duration: 0.04173 	 Iterations=   18 	 BF-Time=10.066941738128662
+scipy gmlvq                    	 Accuracy: 0.98667 	 Duration: 0.04552 	 Iterations=   19 	 BF-Time=10.056724786758423
+
+uci_segmentation ((2310, 18))  | 150 iterations
+pytorch_native_all_at_once     	 Accuracy: 0.92121 	 Duration: 1.82950 	 Iterations=  150 	 BF-Time=59.71167206764221
+pytorch_native_all_at_once     	 Accuracy: 0.92078 	 Duration: 1.45789 	 Iterations=  150 	 BF-Time=57.69143199920654
+pytorch_scipy_wrapper          	 Accuracy: 0.92078 	 Duration: 1.01256 	 Iterations=  130 	 BF-Time=56.98354196548462
+pytorch_scipy_wrapper          	 Accuracy: 0.92165 	 Duration: 1.31899 	 Iterations=  150 	 BF-Time=56.57262301445007
+NotThreeTimes                  	 Accuracy: 0.91991 	 Duration: 1.60047 	 Iterations=  150 	 BF-Time=122.32668900489807
+scipy gmlvq                    	 Accuracy: 0.92121 	 Duration: 5.67536 	 Iterations=  150 	 BF-Time=128.6199882030487
+scipy gmlvq                    	 Accuracy: 0.92121 	 Duration: 5.98493 	 Iterations=  150 	 BF-Time=122.63803696632385
+
+breast cancer ((569, 30))  | 150 iterations
+pytorch_native_all_at_once     	 Accuracy: 0.97891 	 Duration: 0.74847 	 Iterations=  150 	 BF-Time=29.286683797836304
+pytorch_native_all_at_once     	 Accuracy: 0.97891 	 Duration: 0.72834 	 Iterations=  150 	 BF-Time=29.28754711151123
+pytorch_scipy_wrapper          	 Accuracy: 0.97715 	 Duration: 0.65693 	 Iterations=  150 	 BF-Time=29.182386875152588
+pytorch_scipy_wrapper          	 Accuracy: 0.97715 	 Duration: 0.63219 	 Iterations=  150 	 BF-Time=29.221973180770874
+NotThreeTimes                  	 Accuracy: 0.97891 	 Duration: 0.15009 	 Iterations=   38 	 BF-Time=32.97911286354065
+scipy gmlvq                    	 Accuracy: 0.97891 	 Duration: 1.16927 	 Iterations=  150 	 BF-Time=33.00271701812744
+scipy gmlvq                    	 Accuracy: 0.97715 	 Duration: 0.80471 	 Iterations=  128 	 BF-Time=32.87352991104126
+
+digits ((1797, 64))  | 150 iterations
+pytorch_native_all_at_once     	 Accuracy: 0.97106 	 Duration: 7.22582 	 Iterations=  150 	 BF-Time=307.22551012039185
+pytorch_native_all_at_once     	 Accuracy: 0.97106 	 Duration: 7.35517 	 Iterations=  150 	 BF-Time=5439.64168715477
+pytorch_scipy_wrapper          	 Accuracy: 0.97106 	 Duration: 6.29429 	 Iterations=  150 	 BF-Time=324.7875671386719
+pytorch_scipy_wrapper          	 Accuracy: 0.97106 	 Duration: 6.65044 	 Iterations=  150 	 BF-Time=340.4202377796173
+NotThreeTimes                  	 Accuracy: 0.97051 	 Duration: 5.85369 	 Iterations=  150 	 BF-Time=320.0787239074707
+scipy gmlvq                    	 Accuracy: 0.97106 	 Duration: 17.15173 	 Iterations=  150 	 BF-Time=282.508318901062
+scipy gmlvq                    	 Accuracy: 0.97106 	 Duration: 10.56364 	 Iterations=  150 	 BF-Time=284.1436960697174
+
+Process finished with exit code 0

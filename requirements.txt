@@ -1,0 +1,9 @@
+numpy~=1.20.1
+numba~=0.53.1
+scipy~=1.6.0
+scikit-learn~=0.24.1
+matplotlib~=3.3.4
+torch~=1.7.1
+prototorch~=0.1.1rc0
+torchvision~=0.8.2
+pycuda
